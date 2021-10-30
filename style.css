@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    text-align: center;
+    /* grid-column-gap: 100px; */
+    grid-template-columns:repeat(3,auto);
+    grid-row: 3;
+    /* grid-row-gap:10px; */
+    grid-gap:20px 10px;
+   /*  grid-template-areas: 
+    "box1 box1 box1"
+    "box1 box1 box1"
+    "box1 box1 box1"
+    "box1 box1 box1"
+    "box1 box1 box1"
+    "box2 box2 box3"
+    "box2 box2 box4"
+    ; */
+
+}
+.box{
+    background:blueviolet;
+}
+.box12{
+   /*  grid-column-start: 2;
+    grid-column-end: 3; */
+    grid-column: 2/3;
+    grid-row:2/5
+}
